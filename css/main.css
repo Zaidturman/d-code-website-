@@ -1,0 +1,132 @@
+:root {
+    --background-color: #283C63;
+    --secondery-color: #FBE8D3;
+    --button-color: #FF7069;
+    --subtitle-color: #928A97;
+    --white-color: #FFFFFF;
+
+    --main-font: "Work Sans",
+        sans-serif;
+
+}
+
+body {
+    font-family: var(--main-font);
+    background: var(--background-color);
+    color: var(--secondery-color);
+}
+
+header {
+    padding: 40px;
+    
+}
+
+.logo {
+    font-family: var(--secound-font);
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+        color: var(--secondery-color);
+}
+.logolink{
+        text-decoration: none;
+        
+                    color: var(--secondery-color);
+
+}
+
+.spanlogo {
+    color: var(--button-color);
+}
+
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.link {
+    color: var(--secondery-color);
+    text-decoration: none;
+}
+.link:hover {
+    color: var(--button-color);
+}
+.link:active {
+    color: var(--button-color);
+}
+
+
+
+.main {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainteam{
+    margin-top: 4%;
+        display: flex;
+        justify-content: space-around;
+}
+
+.title {
+    color: var(--text-color);
+    font-size: 96px;
+    font-weight: bold;
+    max-width: 770px;
+}
+
+.titleservices {
+    color: var(--text-color);
+    font-size: 72px;
+    font-weight: bold;
+    max-width: 470px;
+}
+
+.description {
+    color: var(--subtitle-color);
+    line-height: 1.6;
+    max-width: 570px;
+    font-size: 24px;
+}
+
+.custombtn {
+    background: var(--button-color);
+    color: var(--secondery-color);
+    padding: 10px 30px;
+    border-radius: 0 10px 0 10px;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+}
+.custombtn:hover {
+    color: var(--button-color);
+    background: var(--secondery-color);
+        border-radius:  10px 0 10px 0;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.forwordbtn{
+    padding: 10px;
+    border-radius: 100%;
+    border: none;
+    background-color:#928a976b;
+    margin-top: 20px;
+    color: var(--button-color);
+    
+}
+
+.teamname{
+    margin-top: 20px;
+    color: var(--button-color);
+    font-weight: bold;
+    font-size: 24px;
+}
+.teamdescription{
+    font-size: 18px;
+}
